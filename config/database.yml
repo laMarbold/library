@@ -1,0 +1,15 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: library_development
+  pool: 5
+  username: postgres
+  password: rixhain
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: library_test
+  pool: 5
+  username: postgres
+  password: rixhain

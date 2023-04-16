@@ -1,0 +1,18 @@
+# == Schema Information
+#
+# Table name: movie_categories
+#
+#  id          :bigint           not null, primary key
+#  created_at  :datetime         not null
+#  updated_at  :datetime         not null
+#  category_id :integer
+#  movie_id    :integer
+#
+
+one:
+  movie_id: 1
+  category_id: 1
+
+two:
+  movie_id: 1
+  category_id: 1

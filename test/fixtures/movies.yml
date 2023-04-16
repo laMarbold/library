@@ -1,0 +1,30 @@
+# == Schema Information
+#
+# Table name: movies
+#
+#  id           :bigint           not null, primary key
+#  description  :string
+#  director     :string
+#  duration     :string
+#  release_year :integer
+#  status       :integer
+#  title        :string
+#  created_at   :datetime         not null
+#  updated_at   :datetime         not null
+#
+
+one:
+  title: MyString
+  director: MyString
+  release_year: 1
+  description: MyString
+  duration: MyString
+  status: 1
+
+two:
+  title: MyString
+  director: MyString
+  release_year: 1
+  description: MyString
+  duration: MyString
+  status: 1
