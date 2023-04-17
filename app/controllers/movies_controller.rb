@@ -10,7 +10,7 @@ class MoviesController < ApplicationController
 
   # GET /movies/1
   def show
-    render json: @movie, include: {"categories": {}}
+    render json: @movie, methods: :cover64, include: %i[categories reviews]
   end
 
   # POST /movies
