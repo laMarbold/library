@@ -5,12 +5,12 @@ class BooksController < ApplicationController
   def index
     @books = Book.all
 
-    render json: @books
+    render json: @books, methods: :cover64
   end
 
   # GET /books/1
   def show
-    render json: @book, methods: :cover64, include: %i[categories reviews]
+    render json: @book, include: %i[categories reviews], methods: :cover64
   end
 
   # POST /books

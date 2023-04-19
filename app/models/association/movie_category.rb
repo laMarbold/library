@@ -7,6 +7,7 @@
 #  updated_at  :datetime         not null
 #  category_id :integer
 #  movie_id    :integer
+#
 
 module Association
   class MovieCategory < ApplicationRecord

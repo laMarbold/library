@@ -7,6 +7,7 @@
 #  updated_at  :datetime         not null
 #  book_id     :integer
 #  category_id :integer
+#
 
 module Association
   class BookCategory < ApplicationRecord
