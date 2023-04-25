@@ -6,6 +6,7 @@
 #  description  :string
 #  director     :string
 #  duration     :string
+#  price        :string
 #  release_year :integer
 #  status       :integer
 #  title        :string

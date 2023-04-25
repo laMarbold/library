@@ -5,12 +5,12 @@ class MoviesController < ApplicationController
   def index
     @movies = Movie.all
 
-    render json: @movies, methods: :cover64
+    render json: @movies, methods: :cover_url
   end
 
   # GET /movies/1
   def show
-    render json: @movie, include: %i[categories reviews], methods: :cover64
+    render json: @movie, include: %i[categories reviews], methods: :cover_url
   end
 
   # POST /movies

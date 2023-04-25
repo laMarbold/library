@@ -6,6 +6,7 @@ class CreateBooks < ActiveRecord::Migration[7.0]
       t.integer :release_year
       t.string :description
       t.integer :status
+      t.string :price
 
       t.timestamps
     end

@@ -5,6 +5,7 @@
 #  id           :bigint           not null, primary key
 #  author       :string
 #  description  :string
+#  price        :string
 #  release_year :integer
 #  status       :integer
 #  title        :string
